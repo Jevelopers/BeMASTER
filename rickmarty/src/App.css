@@ -1,0 +1,24 @@
+/* 
+    ------------------------------------------
+    Nombre del proyecto: BeMaster - Prueba ingreso
+    Desarrollador: John Wilmer Chavarro Urrea
+    Version: 0.1.1
+    Fecha inicio: 10/05/2022
+    ------------------------------------------
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    --color-primary : ;
+    --color-secondary : ;
+    --color-accent : ;
+
+
+    --font-primary:;
+    --font-secondary:;
+}
