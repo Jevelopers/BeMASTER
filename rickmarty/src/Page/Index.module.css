@@ -1,15 +1,15 @@
-.main {
+.container {
     display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 30rem;
     grid-template-rows: auto;
     background: var(--color-primary);
-    padding: 10rem 5rem;
+    padding: 10rem 2rem;
 }
+
 
 .image {
     text-align: center;
     position: relative;
-    padding: 5rem;
 }
 
 .image__img {
@@ -20,7 +20,7 @@
     transform: scale(1.1);
 }
 
-.image::before {
+.image54::before {
     content: '¡HOLA!, estas consumiendo la API DE Rick and Morty.';
     text-align: center;
     display: inline-block;
@@ -36,4 +36,15 @@
     right: 15rem;
     top: -1rem;
     padding: 1rem;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr; 
+    }
+
+    .image {
+        display: none;
+
+    }
 }

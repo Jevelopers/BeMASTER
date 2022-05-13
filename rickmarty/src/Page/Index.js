@@ -37,7 +37,7 @@ function Index() {
   }
 
   return (
-    <div className={stylesSearches.main}>
+    <div className={stylesSearches.container}>
       <div className={stylesSearches.character}>
         <Characters characters = { characters}/>
         <Pagination prev={info.prev} next={info.next} onPrevious={onPrevious} onNext={onNext} />
