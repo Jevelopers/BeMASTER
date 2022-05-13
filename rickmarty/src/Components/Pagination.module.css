@@ -1,0 +1,20 @@
+.pagination {
+    text-align: center;
+}
+
+.pagination__link {
+    margin: 2rem 1rem 2rem 0;
+    padding: .5rem 4rem;
+    font-family: var(--font-primary);
+    font-size: 1.2rem ;
+    border-radius: 50rem;
+    background: var(--color-secondary);
+    border: .2rem solid var(--color-secondary);
+    color: var(--color-white);
+}
+
+.pagination__link:hover {
+    background:  transparent;
+    border: .2rem solid var(--color-white);
+    color: var(--color-white);
+}

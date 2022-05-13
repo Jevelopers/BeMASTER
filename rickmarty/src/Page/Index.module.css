@@ -1,0 +1,39 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: auto;
+    background: var(--color-primary);
+    padding: 10rem 5rem;
+}
+
+.image {
+    text-align: center;
+    position: relative;
+    padding: 5rem;
+}
+
+.image__img {
+    filter: drop-shadow(.5rem 0 0 var(--color-accent));
+}
+
+.image__img:hover {
+    transform: scale(1.1);
+}
+
+.image::before {
+    content: '¡HOLA!, estas consumiendo la API DE Rick and Morty.';
+    text-align: center;
+    display: inline-block;
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    color: var(--color-white);
+    background-color: var(--color-accent);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 60% 85%, 75% 100%, 0% 75%);
+    border-radius: .5rem;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    right: 15rem;
+    top: -1rem;
+    padding: 1rem;
+}

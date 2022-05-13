@@ -1,0 +1,44 @@
+.container {
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--color-white);
+    padding: 1rem 0;
+    position: fixed;
+    z-index: 99;
+}
+
+.brand__image {
+    width: 10vh;
+}
+
+.brand__image:hover {
+    transform: scale(1.1);
+}
+
+.item {
+    list-style: none;
+    text-decoration: none;
+}
+
+.item {
+    font-family:  var(--font-primary);
+    font-size: 1rem;
+    color: var(--color-primary);
+    margin: 0 .5rem;
+}
+
+.item:hover { 
+    color: var(--color-secondary);
+}
+
+.line {
+    color: var(--color-primary);
+    font-size: 2rem;
+    
+}

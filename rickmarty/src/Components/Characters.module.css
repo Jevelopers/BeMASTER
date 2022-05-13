@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-white);
+    width: 15rem;
+    height: 20rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.image {
+    text-align: center;
+}
+
+.image__avatar {
+    border-radius: 50rem;
+    width: 8rem;
+    border: .4rem solid var(--color-accent);
+}
+
+.image__avatar:hover {
+    border: .4rem solid var(--color-secondary);
+    transform: scale(1.1);
+}
+
+.content .info{
+    text-align: center;
+}
+
+.info__title {
+    font-family: var(--font-primary);
+    color: var(--color-accent);
+}
+
+.info__subtitle {
+    font-family: var(--font-secondary);
+    color: var(--color-primary);
+}
